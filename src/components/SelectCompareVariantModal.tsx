@@ -63,7 +63,7 @@ const variantOptions = variants.map(v => ({ label: v, value: v }));
   value={selectedModel}
   onChange={item => {
     setSelectedModel(item.value);
-    setSelectedVariant(null); // keep same logic
+    setSelectedVariant(null); 
   }}
 />
 
@@ -80,7 +80,7 @@ const variantOptions = variants.map(v => ({ label: v, value: v }));
   value={selectedVariant}
   disable={!selectedModel}
   onChange={item => {
-    setSelectedVariant(item.value); // keep same logic
+    setSelectedVariant(item.value); 
   }}
 />
    
@@ -94,6 +94,8 @@ const variantOptions = variants.map(v => ({ label: v, value: v }));
             if (!selectedTractor) return;
             // onSelectId(selectedTractor.id);
             onSelectId(Number(selectedTractor.id));
+            setSelectedModel(null)
+            setSelectedVariant(null)
             onClose();
           }}
            >

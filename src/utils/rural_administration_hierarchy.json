@@ -1,0 +1,311 @@
+{
+  "tehsils": [
+    {
+      "id": 1,
+      "name": "Goharganj",
+      "district": "Raisen",
+      "state": "Madhya Pradesh",
+      "has_blocks": true
+    },
+    {
+      "id": 2,
+      "name": "Durg",
+      "district": "Durg",
+      "state": "Chhattisgarh",
+      "has_blocks": true
+    },
+    {
+      "id": 3,
+      "name": "Sambhal",
+      "district": "Moradabad",
+      "state": "Uttar Pradesh",
+      "has_blocks": true
+    },
+    {
+      "id": 4,
+      "name": "Niphad",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "has_blocks": true
+    },
+    {
+      "id": 5,
+      "name": "Kharagpur",
+      "district": "Munger",
+      "state": "Bihar",
+      "has_blocks": true
+    },
+    {
+      "id": 6,
+      "name": "Anakapalle",
+      "district": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "has_blocks": false
+    },
+    {
+      "id": 7,
+      "name": "Haveri",
+      "district": "Haveri",
+      "state": "Karnataka",
+      "has_blocks": false
+    },
+    {
+      "id": 8,
+      "name": "Nagar",
+      "district": "Bharatpur",
+      "state": "Rajasthan",
+      "has_blocks": true
+    },
+    {
+      "id": 9,
+      "name": "Palani",
+      "district": "Dindigul",
+      "state": "Tamil Nadu",
+      "has_blocks": false
+    },
+    {
+      "id": 10,
+      "name": "Jagatsinghpur",
+      "district": "Jagatsinghpur",
+      "state": "Odisha",
+      "has_blocks": true
+    }
+  ],
+  
+  "blocks": [
+    {
+      "id": 101,
+      "name": "Goharganj Block",
+      "tehsil_id": 1
+    },
+    {
+      "id": 102,
+      "name": "Begamganj Block",
+      "tehsil_id": 1
+    },
+    {
+      "id": 103,
+      "name": "Durg Block",
+      "tehsil_id": 2
+    },
+    {
+      "id": 104,
+      "name": "Patan Block",
+      "tehsil_id": 2
+    },
+    {
+      "id": 105,
+      "name": "Sambhal Block",
+      "tehsil_id": 3
+    },
+    {
+      "id": 106,
+      "name": "Bahjoi Block",
+      "tehsil_id": 3
+    },
+    {
+      "id": 107,
+      "name": "Niphad Block",
+      "tehsil_id": 4
+    },
+    {
+      "id": 108,
+      "name": "Kharagpur Block",
+      "tehsil_id": 5
+    },
+    {
+      "id": 109,
+      "name": "Tarapur Block",
+      "tehsil_id": 5
+    },
+    {
+      "id": 110,
+      "name": "Nagar Block",
+      "tehsil_id": 8
+    },
+    {
+      "id": 111,
+      "name": "Jagatsinghpur Block",
+      "tehsil_id": 10
+    }
+  ],
+  
+  "villages": [
+    {
+      "id": 201,
+      "name": "Piplani",
+      "tehsil_id": 1,
+      "block_id": 101,
+      "admin_level": "block"
+    },
+    {
+      "id": 202,
+      "name": "Bamhori",
+      "tehsil_id": 1,
+      "block_id": 101,
+      "admin_level": "block"
+    },
+    {
+      "id": 203,
+      "name": "Richhai",
+      "tehsil_id": 1,
+      "block_id": 102,
+      "admin_level": "block"
+    },
+    {
+      "id": 204,
+      "name": "Khapri",
+      "tehsil_id": 2,
+      "block_id": 103,
+      "admin_level": "block"
+    },
+    {
+      "id": 205,
+      "name": "Parsada",
+      "tehsil_id": 2,
+      "block_id": 103,
+      "admin_level": "block"
+    },
+    {
+      "id": 206,
+      "name": "Bahjoi Khurd",
+      "tehsil_id": 3,
+      "block_id": 106,
+      "admin_level": "block"
+    },
+    {
+      "id": 207,
+      "name": "Pimpalgaon",
+      "tehsil_id": 4,
+      "block_id": 107,
+      "admin_level": "block"
+    },
+    {
+      "id": 208,
+      "name": "Tetia",
+      "tehsil_id": 5,
+      "block_id": 108,
+      "admin_level": "block"
+    },
+    {
+      "id": 209,
+      "name": "Deogaon",
+      "tehsil_id": 5,
+      "block_id": 109,
+      "admin_level": "block"
+    },
+    {
+      "id": 210,
+      "name": "Semra",
+      "tehsil_id": 3,
+      "block_id": 105,
+      "admin_level": "block"
+    },
+    {
+      "id": 211,
+      "name": "Khamaria",
+      "tehsil_id": 3,
+      "block_id": 106,
+      "admin_level": "block"
+    },
+    {
+      "id": 212,
+      "name": "Rampur",
+      "tehsil_id": 1,
+      "block_id": 102,
+      "admin_level": "block"
+    },
+    {
+      "id": 213,
+      "name": "Nagpur",
+      "tehsil_id": 2,
+      "block_id": 104,
+      "admin_level": "block"
+    },
+    {
+      "id": 214,
+      "name": "Sarai",
+      "tehsil_id": 8,
+      "block_id": 110,
+      "admin_level": "block"
+    },
+    {
+      "id": 215,
+      "name": "Bhagwanpur",
+      "tehsil_id": 10,
+      "block_id": 111,
+      "admin_level": "block"
+    },
+    
+    {
+      "id": 216,
+      "name": "Kothavalasa",
+      "tehsil_id": 6,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 217,
+      "name": "Chodavaram",
+      "tehsil_id": 6,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 218,
+      "name": "Makavarapalem",
+      "tehsil_id": 6,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 219,
+      "name": "Shiggaon Rural",
+      "tehsil_id": 7,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 220,
+      "name": "Hirekerur",
+      "tehsil_id": 7,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 221,
+      "name": "Byadgi",
+      "tehsil_id": 7,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 222,
+      "name": "Ayakudi",
+      "tehsil_id": 9,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 223,
+      "name": "Oddanchatram",
+      "tehsil_id": 9,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 224,
+      "name": "Palani Rural",
+      "tehsil_id": 9,
+      "block_id": null,
+      "admin_level": "tehsil"
+    },
+    {
+      "id": 225,
+      "name": "Bichhiya",
+      "tehsil_id": 6,
+      "block_id": null,
+      "admin_level": "tehsil"
+    }
+  ]
+}

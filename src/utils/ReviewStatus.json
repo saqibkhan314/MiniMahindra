@@ -1,0 +1,29 @@
+[
+
+    {
+        "id": 1,
+         "value": "Product-Required feature not available"
+         
+    },
+    {
+        "id": 2,
+         "value": "Product-Model is not available"
+         
+    },
+    {
+        "id": 3,
+         "value": "product-Customer interested in competition model"
+         
+    },
+    {
+        "id": 4,
+         "value": "Price-Price discussion going on"
+         
+    },
+    {
+        "id": 5,
+         "value": "Price-Price costlier than competition model"
+         
+    }
+    
+]

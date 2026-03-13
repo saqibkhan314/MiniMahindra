@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import TractorsDetailScreen from '../screens/TractorsDetailScreen';
 import ProductGuide from '../screens/ProductGuideScreen';
 import CompareVariantsScreen from '../screens/CompareVariantsScreen';
+import EnquiryFollowUpScreen from '../screens/EnquiryFollowUpScreen';
 
 const Routes = () => {
   const Stack = createNativeStackNavigator();
@@ -14,6 +15,7 @@ const Routes = () => {
         <Stack.Screen name="ProductGuide" component={ProductGuide} />
         <Stack.Screen name="TractorDetails" component={TractorsDetailScreen} />
         <Stack.Screen name="CompareVariants" component={CompareVariantsScreen} />
+        <Stack.Screen name="EnquiryFollowUp" component={EnquiryFollowUpScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

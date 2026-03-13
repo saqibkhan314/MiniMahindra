@@ -5,8 +5,11 @@ import Search from '../components/Search';
 import AddFavourites from '../components/AddFavourites';
 import Model from '../components/Model';
 import ModelVariants from '../components/ModelVariants';
+import FloatingButton from '../components/Follow Up/FloatingButton';
+import { useNavigation } from '@react-navigation/native';
 
 const ProductGuide = () => {
+  const navigation = useNavigation()
     const [selectedModel, setSelectedModel] = useState(null);
 
     console.log('selectedModel in product guide ======>>>>>', selectedModel);
@@ -23,6 +26,7 @@ const ProductGuide = () => {
        
       
       </View>
+       <FloatingButton onPress={() => navigation.navigate('EnquiryFollowUp')} />
     </View>
   );
 };

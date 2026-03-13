@@ -21,13 +21,13 @@ export default function Header({ title = "Product Guide", onBack }) {
   };
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#1a1a1a" />
-      
-      {/* Red Background layer that creates the thin red curve at the bottom */}
+      {/* <StatusBar barStyle="light-content" backgroundColor="#1a1a1a" />
+       */}
+    
       <View style={styles.redBackground}>
         
         <View style={styles.safeArea}>
-          {/* Main Black Header */}
+
           <View style={styles.headerContent}>
             <View style={styles.row}>
               <TouchableOpacity
@@ -40,7 +40,7 @@ export default function Header({ title = "Product Guide", onBack }) {
 
               <Text style={styles.title}>{title}</Text>
 
-              {/* Empty view to balance the flex layout for centering title */}
+             
               <View style={styles.spacer} />
             </View>
           </View>
@@ -53,26 +53,27 @@ export default function Header({ title = "Product Guide", onBack }) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#F5F5F5", // Matches the light grey app background
+    backgroundColor: "#F5F5F5", 
   },
   redBackground: {
-    backgroundColor: "#D32F2F", // The red accent color
+    backgroundColor: "#D32F2F", 
     borderBottomLeftRadius: 25,
     borderBottomRightRadius: 25,
-    paddingBottom: 4, // This creates the visible 4px red "lip" at the bottom
+    paddingBottom: 4, 
     //paddingVertical: 10
   },
   safeArea: {
     backgroundColor: "#1a1a1a",
-    borderBottomLeftRadius: 22, // Slightly smaller than red background to show edge
+    borderBottomLeftRadius: 22, 
     borderBottomRightRadius: 22,
-    padding:12
+    padding:6,
+    
   },
   headerContent: {
     backgroundColor: "#1a1a1a",
     borderBottomLeftRadius: 22,
     borderBottomRightRadius: 22,
-    height: 70, // Standard height for header
+    height: 70, 
     justifyContent: 'center',
   },
   row: {
