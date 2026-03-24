@@ -6,6 +6,7 @@ import TractorsDetailScreen from '../screens/TractorsDetailScreen';
 import ProductGuide from '../screens/ProductGuideScreen';
 import CompareVariantsScreen from '../screens/CompareVariantsScreen';
 import EnquiryFollowUpScreen from '../screens/EnquiryFollowUpScreen';
+import DealerAndAccountScreen from '../screens/DealerAndAccountScreen';
 
 const Routes = () => {
   const Stack = createNativeStackNavigator();
@@ -16,6 +17,7 @@ const Routes = () => {
         <Stack.Screen name="TractorDetails" component={TractorsDetailScreen} />
         <Stack.Screen name="CompareVariants" component={CompareVariantsScreen} />
         <Stack.Screen name="EnquiryFollowUp" component={EnquiryFollowUpScreen} />
+        <Stack.Screen name="DealerAndAccount" component={DealerAndAccountScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -631,6 +631,7 @@ import { Dropdown } from 'react-native-element-dropdown';
 import ReviewStatus from '../../utils/ReviewStatus.json';
 import Voice from '@react-native-voice/voice';
 import { PermissionsAndroid, Platform } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 const MAKE_OPTIONS = [
   { id: 1, name: 'Escorts' },
@@ -647,6 +648,7 @@ const formatToDisplay = (value: string) => {
 };
 
 const AddFollowUpForm = ({allCustomerDetailData, allOwnedVehicleData, interestedModel}) => {
+  const navigation = useNavigation()
   const today = getFormatedDate(new Date(), 'YYYY/MM/DD');
   const [openCalendar, setOpenCalendar] = useState(false);
   const [selectedDate, setSelectedDate] = useState<string>(today);
@@ -662,6 +664,7 @@ const AddFollowUpForm = ({allCustomerDetailData, allOwnedVehicleData, interested
   const newFieldToBeEnabled = ReviewStatus.find(r => reviewStatus === r.id);
 
   const handleSave = () => {
+    navigation.navigate('DealerAndAccount')
     const rewiewStatusName = ReviewStatus.find( r => r.id === reviewStatus)
     const selectedMakeName = MAKE_OPTIONS.find( m => m.id === selectedMake)
     const completionModelName = MODEL_OPTIONS.find( m => m.id === selectedCompetitionModel )
@@ -703,6 +706,8 @@ const AddFollowUpForm = ({allCustomerDetailData, allOwnedVehicleData, interested
     }
 
     Alert.alert("Success")
+
+    
   }
 
   // Request microphone permission for Android
